@@ -12,7 +12,7 @@ class UserTest {
 
     @Test
     public void lastNameShouldNotBeEmpty() {
-        User user = new User("Jamil", "Perez", "32145678901");
+        User user = new User("Jamil", "Khan", "32145678901");
         Assertions.assertFalse(user.getLastName().isEmpty());
     }
 }
